@@ -7,7 +7,8 @@ def moderate(text):
     :param text:
     :return:
     """
-    api_url = "http://127.0.0.1:5000/api/v0/moderate"
+    api_url = "http://3.26.146.235:5000/api/v0/moderate"
+    # api_url = "http://127.0.0.1:5000/api/v0/moderate"
     payload = {"text": text}
     print(payload)
     print("Executing")
